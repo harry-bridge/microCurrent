@@ -1811,16 +1811,6 @@ Source: http://www.vishay.com .. dcrcw.pdf</description>
 <rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
 </package>
-<package name="C0603K-SMALL" urn="urn:adsk.eagle:footprint:15882670/1" library_version="43" library_locally_modified="yes">
-<wire x1="-0.725" y1="0.35" x2="0.725" y2="0.35" width="0.1016" layer="51"/>
-<wire x1="0.725" y1="-0.35" x2="-0.725" y2="-0.35" width="0.1016" layer="51"/>
-<smd name="1" x="-0.875" y="0" dx="0.889" dy="0.889" layer="1"/>
-<smd name="2" x="0.875" y="0" dx="0.889" dy="0.889" layer="1"/>
-<text x="-0.8" y="0.65" size="1.016" layer="25">&gt;NAME</text>
-<text x="-0.8" y="-1.65" size="1.016" layer="27">&gt;VALUE</text>
-<rectangle x1="-0.8" y1="-0.4" x2="-0.45" y2="0.4" layer="51"/>
-<rectangle x1="0.45" y1="-0.4" x2="0.8" y2="0.4" layer="51"/>
-</package>
 <package name="R0402-NARROW-OLD" urn="urn:adsk.eagle:footprint:15279439/1" library_version="43" library_locally_modified="yes">
 <wire x1="-0.245" y1="0.224" x2="0.245" y2="0.224" width="0.1524" layer="51"/>
 <wire x1="0.245" y1="-0.224" x2="-0.245" y2="-0.224" width="0.1524" layer="51"/>
@@ -1836,7 +1826,7 @@ Source: http://www.vishay.com .. dcrcw.pdf</description>
 <rectangle x1="0.2588" y1="-0.3048" x2="0.5588" y2="0.2951" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
 </package>
-<package name="R0402-SMALLER" urn="urn:adsk.eagle:footprint:15279469/1" library_version="43" library_locally_modified="yes">
+<package name="R0402-SMALLER" urn="urn:adsk.eagle:footprint:15279469/1" locally_modified="yes" library_version="48" library_locally_modified="yes">
 <wire x1="-0.245" y1="0.174" x2="0.245" y2="0.174" width="0.1524" layer="51"/>
 <wire x1="0.245" y1="-0.174" x2="-0.245" y2="-0.174" width="0.1524" layer="51"/>
 <smd name="1" x="-0.5" y="0" dx="0.6" dy="0.6" layer="1"/>
@@ -1846,6 +1836,8 @@ Source: http://www.vishay.com .. dcrcw.pdf</description>
 <rectangle x1="-0.5" y1="-0.25" x2="-0.25" y2="0.25" layer="51"/>
 <rectangle x1="0.2" y1="-0.25" x2="0.5" y2="0.25" layer="51"/>
 <rectangle x1="-0.2" y1="-0.3" x2="0.2" y2="0.3" layer="35"/>
+<wire x1="-0.1" y1="0.4" x2="0.1" y2="0.4" width="0.127" layer="21"/>
+<wire x1="-0.1" y1="-0.4" x2="0.1" y2="-0.4" width="0.127" layer="21"/>
 </package>
 <package name="R0402-ARDUINO-ROUND" urn="urn:adsk.eagle:footprint:15279546/1" library_version="43" library_locally_modified="yes">
 <wire x1="-0.118" y1="0.224" x2="0.118" y2="0.224" width="0.1524" layer="51"/>
@@ -4182,7 +4174,7 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 <rectangle x1="0.2588" y1="-0.3048" x2="0.5588" y2="0.2951" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
 </package>
-<package name="C0402-SMALLER" urn="urn:adsk.eagle:footprint:15882668/1" library_version="43" library_locally_modified="yes">
+<package name="C0402-SMALLER" urn="urn:adsk.eagle:footprint:15882668/1" locally_modified="yes" library_version="48" library_locally_modified="yes">
 <wire x1="-0.245" y1="0.174" x2="0.245" y2="0.174" width="0.1524" layer="51"/>
 <wire x1="0.245" y1="-0.174" x2="-0.245" y2="-0.174" width="0.1524" layer="51"/>
 <smd name="1" x="-0.5" y="0" dx="0.6" dy="0.6" layer="1"/>
@@ -4192,6 +4184,8 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 <rectangle x1="-0.5" y1="-0.25" x2="-0.25" y2="0.25" layer="51"/>
 <rectangle x1="0.2" y1="-0.25" x2="0.5" y2="0.25" layer="51"/>
 <rectangle x1="-0.2" y1="-0.3" x2="0.2" y2="0.3" layer="35"/>
+<wire x1="-0.1" y1="-0.4" x2="0.1" y2="-0.4" width="0.127" layer="21"/>
+<wire x1="-0.1" y1="0.4" x2="0.1" y2="0.4" width="0.127" layer="21"/>
 </package>
 <package name="C0402-ARDUINO-ROUND" urn="urn:adsk.eagle:footprint:15882853/1" library_version="43" library_locally_modified="yes">
 <wire x1="-0.118" y1="0.224" x2="0.118" y2="0.224" width="0.1524" layer="51"/>
@@ -4243,11 +4237,12 @@ chip</description>
 <text x="-0.989" y="-1.486" size="0.4064" layer="27">&gt;VALUE</text>
 </package>
 <package name="CL2160R" urn="urn:adsk.eagle:footprint:16823271/1" locally_modified="yes" library_version="48" library_locally_modified="yes">
-<pad name="1" x="0" y="0" drill="5.2" diameter="11"/>
-<circle x="0" y="0" radius="6.1" width="1.2" layer="43"/>
+<pad name="1" x="0" y="0" drill="4.8" diameter="10.5"/>
+<circle x="0" y="0" radius="5.85" width="1.2" layer="43"/>
 <circle x="0" y="0" radius="7.5" width="0.127" layer="51"/>
-<circle x="0" y="0" radius="6.1" width="1.2" layer="39"/>
-<circle x="0" y="0" radius="6.1" width="1.2" layer="40"/>
+<circle x="0" y="0" radius="5.85" width="1.2" layer="39"/>
+<circle x="0" y="0" radius="5.85" width="1.2" layer="40"/>
+<circle x="0" y="0" radius="4.8" width="0.127" layer="51"/>
 </package>
 <package name="CSM2512-L" urn="urn:adsk.eagle:footprint:16823272/1" library_version="46">
 <smd name="I1" x="-2.855" y="-0.835" dx="1.65" dy="2.01" layer="1"/>
@@ -4629,7 +4624,7 @@ chip</description>
 <text x="-2.54" y="-7.239" size="0.7" layer="27">&gt;VALUE</text>
 </package>
 <package name="BUG10_SOCKET" urn="urn:adsk.eagle:footprint:16823274/1" locally_modified="yes" library_version="48" library_locally_modified="yes">
-<pad name="1" x="0" y="0" drill="6" diameter="11"/>
+<pad name="1" x="0" y="0" drill="6.2" diameter="11"/>
 <circle x="0" y="0" radius="6.1" width="1.2" layer="43"/>
 <circle x="0" y="0" radius="5" width="0.127" layer="49"/>
 <text x="-1.397" y="7.62" size="0.7" layer="25" font="vector">&gt;NAME</text>
@@ -5308,6 +5303,18 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <wire x1="4.825" y1="5.3" x2="4.825" y2="2" width="0.15" layer="21"/>
 <wire x1="-4" y1="-12.26" x2="4" y2="-12.26" width="0.15" layer="49"/>
 </package>
+<package name="C0603K-SMALL" urn="urn:adsk.eagle:footprint:15882670/1" locally_modified="yes" library_version="48" library_locally_modified="yes">
+<wire x1="-0.725" y1="0.35" x2="0.725" y2="0.35" width="0.1016" layer="51"/>
+<wire x1="0.725" y1="-0.35" x2="-0.725" y2="-0.35" width="0.1016" layer="51"/>
+<smd name="1" x="-0.875" y="0" dx="0.889" dy="0.889" layer="1"/>
+<smd name="2" x="0.875" y="0" dx="0.889" dy="0.889" layer="1"/>
+<text x="-0.8" y="0.65" size="1.016" layer="25">&gt;NAME</text>
+<text x="-0.8" y="-1.65" size="1.016" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.8" y1="-0.4" x2="-0.45" y2="0.4" layer="51"/>
+<rectangle x1="0.45" y1="-0.4" x2="0.8" y2="0.4" layer="51"/>
+<wire x1="-0.3" y1="0.55" x2="0.3" y2="0.55" width="0.127" layer="21"/>
+<wire x1="-0.3" y1="-0.55" x2="0.3" y2="-0.55" width="0.127" layer="21"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="R0402" urn="urn:adsk.eagle:package:15281309/1" type="box" library_version="43" library_locally_modified="yes">
@@ -5896,17 +5903,12 @@ Source: http://www.vishay.com .. dcrcw.pdf</description>
 <packageinstance name="C0603-SMALL"/>
 </packageinstances>
 </package3d>
-<package3d name="C0603K-SMALL" urn="urn:adsk.eagle:package:15281307/3" type="model" library_version="43" library_locally_modified="yes">
-<packageinstances>
-<packageinstance name="C0603K-SMALL"/>
-</packageinstances>
-</package3d>
 <package3d name="R0402-NARROW-OLD" urn="urn:adsk.eagle:package:15282141/1" type="box" library_version="43" library_locally_modified="yes">
 <packageinstances>
 <packageinstance name="R0402-NARROW-OLD"/>
 </packageinstances>
 </package3d>
-<package3d name="R0402-SMALLER" urn="urn:adsk.eagle:package:15282173/2" type="model" library_version="43" library_locally_modified="yes">
+<package3d name="R0402-SMALLER" urn="urn:adsk.eagle:package:15282173/2" type="model" library_version="48" library_locally_modified="yes">
 <description>Chip, 1.00 X 0.50 X 0.35 mm body
 &lt;p&gt;Chip package with body size 1.00 X 0.50 X 0.35 mm&lt;/p&gt;</description>
 <packageinstances>
@@ -6594,7 +6596,7 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 <packageinstance name="C0402-NARROW-OLD"/>
 </packageinstances>
 </package3d>
-<package3d name="C0402-SMALLER" urn="urn:adsk.eagle:package:15282165/3" type="model" library_version="43" library_locally_modified="yes">
+<package3d name="C0402-SMALLER" urn="urn:adsk.eagle:package:15282165/3" type="model" library_version="48" library_locally_modified="yes">
 <packageinstances>
 <packageinstance name="C0402-SMALLER"/>
 </packageinstances>
@@ -6989,6 +6991,11 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <packageinstance name="MOLEX-1X2-43650"/>
 </packageinstances>
 </package3d>
+<package3d name="C0603K-SMALL" urn="urn:adsk.eagle:package:15281307/3" type="model" library_version="48" library_locally_modified="yes">
+<packageinstances>
+<packageinstance name="C0603K-SMALL"/>
+</packageinstances>
+</package3d>
 </packages3d>
 <symbols>
 <symbol name="SWITCH-DP3T" urn="urn:adsk.eagle:symbol:16823259/1" library_version="46">
@@ -7086,23 +7093,23 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <pin name="B" x="-7.62" y="-5.08" visible="off" length="short" direction="pas"/>
 <pin name="C" x="7.62" y="-5.08" visible="off" length="short" rot="R180"/>
 </symbol>
-<symbol name="MAX4239" urn="urn:adsk.eagle:symbol:16823263/1" library_version="46">
-<pin name="3" x="-7.62" y="2.54" visible="off" length="short"/>
-<pin name="4" x="-7.62" y="-2.54" visible="off" length="short"/>
-<pin name="1" x="7.62" y="0" visible="off" length="short" rot="R180"/>
-<pin name="6" x="0" y="7.62" visible="off" length="short" rot="R270"/>
-<pin name="2" x="0" y="-5.08" visible="off" length="short" rot="R90"/>
-<pin name="5" x="-7.62" y="7.62" visible="off" length="short"/>
+<symbol name="MAX4239" urn="urn:adsk.eagle:symbol:16823263/1" locally_modified="yes" library_version="48" library_locally_modified="yes">
+<pin name="3" x="-7.62" y="2.54" visible="pad" length="short"/>
+<pin name="4" x="-7.62" y="-2.54" visible="pad" length="short"/>
+<pin name="1" x="7.62" y="0" visible="pad" length="short" rot="R180"/>
+<pin name="6" x="0" y="7.62" visible="pad" length="middle" rot="R270"/>
+<pin name="2" x="0" y="-7.62" visible="pad" length="middle" rot="R90"/>
+<pin name="5" x="-7.62" y="7.62" visible="pad" length="short"/>
 <wire x1="5.08" y1="0" x2="0" y2="2.54" width="0.254" layer="94"/>
 <wire x1="0" y1="2.54" x2="-5.08" y2="5.08" width="0.254" layer="94"/>
 <wire x1="-5.08" y1="5.08" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
 <wire x1="-5.08" y1="-5.08" x2="5.08" y2="0" width="0.254" layer="94"/>
 <wire x1="-5.08" y1="7.62" x2="0" y2="2.54" width="0.254" layer="94"/>
-<wire x1="0" y1="5.08" x2="0" y2="2.54" width="0.254" layer="94"/>
 <text x="2.54" y="5.08" size="1.27" layer="95">&gt;Name</text>
 <text x="2.54" y="-5.08" size="1.27" layer="96">&gt;Value</text>
-<text x="-4.318" y="2.032" size="1.27" layer="94">+</text>
-<text x="-4.318" y="-3.048" size="1.27" layer="94">-</text>
+<wire x1="-3.556" y1="3.175" x2="-3.556" y2="1.905" width="0.1524" layer="94"/>
+<wire x1="-4.191" y1="2.54" x2="-2.921" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-4.191" y1="-2.54" x2="-2.921" y2="-2.54" width="0.1524" layer="94"/>
 </symbol>
 <symbol name="LED" urn="urn:adsk.eagle:symbol:15277912/1" library_version="43" library_locally_modified="yes">
 <wire x1="1.27" y1="0" x2="0" y2="-2.54" width="0.254" layer="94"/>
@@ -7197,7 +7204,7 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 </device>
 </devices>
 </deviceset>
-<deviceset name="R-EU_" urn="urn:adsk.eagle:component:15283812/8" prefix="R" uservalue="yes" library_version="47">
+<deviceset name="R-EU_" urn="urn:adsk.eagle:component:15283812/8" prefix="R" uservalue="yes" library_version="48" library_locally_modified="yes">
 <description>&lt;B&gt;RESISTOR&lt;/B&gt;, European symbol</description>
 <gates>
 <gate name="G$1" symbol="R-EU" x="0" y="0"/>
@@ -8642,7 +8649,7 @@ Various common sizes : AA, AAA, 20mm coin cell and 12mm coin cell.</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="C-EU" urn="urn:adsk.eagle:component:15283808/9" prefix="C" uservalue="yes" library_version="46">
+<deviceset name="C-EU" urn="urn:adsk.eagle:component:15283808/9" prefix="C" uservalue="yes" library_version="48" library_locally_modified="yes">
 <description>&lt;B&gt;CAPACITOR&lt;/B&gt;, European symbol</description>
 <gates>
 <gate name="G$1" symbol="C-EU" x="0" y="0"/>
@@ -9696,7 +9703,7 @@ Various common sizes : AA, AAA, 20mm coin cell and 12mm coin cell.</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="MAX4239" urn="urn:adsk.eagle:component:16823289/1" prefix="U" library_version="46">
+<deviceset name="MAX4239" urn="urn:adsk.eagle:component:16823289/1" prefix="U" library_version="48" library_locally_modified="yes">
 <gates>
 <gate name="G$1" symbol="MAX4239" x="0" y="0"/>
 </gates>
@@ -13741,8 +13748,10 @@ http://www.national.com/dt/lmv_qual.pdf</description>
 <class number="0" name="default" width="0" drill="0">
 </class>
 <class number="1" name="Signal" width="0.25" drill="0">
+<clearance class="1" value="0.2"/>
 </class>
 <class number="2" name="LVDC" width="0.3" drill="0">
+<clearance class="2" value="0.2"/>
 </class>
 <class number="3" name="VOUT" width="0" drill="0">
 <clearance class="3" value="1.2"/>
@@ -14118,13 +14127,13 @@ http://www.national.com/dt/lmv_qual.pdf</description>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="2"/>
-<wire x1="190.5" y1="162.56" x2="190.5" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="160.02" x2="190.5" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="190.5" y1="157.48" x2="193.04" y2="157.48" width="0.1524" layer="91"/>
 <label x="193.04" y="157.48" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="2"/>
-<wire x1="243.84" y1="162.56" x2="243.84" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="243.84" y1="160.02" x2="243.84" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="243.84" y1="157.48" x2="246.38" y2="157.48" width="0.1524" layer="91"/>
 <label x="246.38" y="157.48" size="1.778" layer="95"/>
 </segment>
