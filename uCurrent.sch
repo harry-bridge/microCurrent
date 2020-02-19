@@ -1838,6 +1838,10 @@ Source: http://www.vishay.com .. dcrcw.pdf</description>
 <rectangle x1="-0.2" y1="-0.3" x2="0.2" y2="0.3" layer="35"/>
 <wire x1="-0.1" y1="0.4" x2="0.1" y2="0.4" width="0.127" layer="21"/>
 <wire x1="-0.1" y1="-0.4" x2="0.1" y2="-0.4" width="0.127" layer="21"/>
+<wire x1="-0.9" y1="0.4" x2="0.9" y2="0.4" width="0.1" layer="39"/>
+<wire x1="0.9" y1="0.4" x2="0.9" y2="-0.4" width="0.1" layer="39"/>
+<wire x1="0.9" y1="-0.4" x2="-0.9" y2="-0.4" width="0.1" layer="39"/>
+<wire x1="-0.9" y1="-0.4" x2="-0.9" y2="0.4" width="0.1" layer="39"/>
 </package>
 <package name="R0402-ARDUINO-ROUND" urn="urn:adsk.eagle:footprint:15279546/1" library_version="43" library_locally_modified="yes">
 <wire x1="-0.118" y1="0.224" x2="0.118" y2="0.224" width="0.1524" layer="51"/>
@@ -2614,6 +2618,7 @@ type 0411, grid 15 mm</description>
 <wire x1="14.2" y1="3.5" x2="14.2" y2="2" width="0.127" layer="21"/>
 <wire x1="14.2" y1="-3.5" x2="14.2" y2="-2" width="0.127" layer="21"/>
 <circle x="0" y="0" radius="10" width="0.127" layer="49"/>
+<circle x="0" y="0" radius="5.25" width="10.5" layer="39"/>
 </package>
 <package name="C0402" urn="urn:adsk.eagle:footprint:15882663/1" library_version="43" library_locally_modified="yes">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -4186,6 +4191,10 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 <rectangle x1="-0.2" y1="-0.3" x2="0.2" y2="0.3" layer="35"/>
 <wire x1="-0.1" y1="-0.4" x2="0.1" y2="-0.4" width="0.127" layer="21"/>
 <wire x1="-0.1" y1="0.4" x2="0.1" y2="0.4" width="0.127" layer="21"/>
+<wire x1="-0.9" y1="0.4" x2="0.9" y2="0.4" width="0.1" layer="39"/>
+<wire x1="0.9" y1="0.4" x2="0.9" y2="-0.4" width="0.1" layer="39"/>
+<wire x1="0.9" y1="-0.4" x2="-0.9" y2="-0.4" width="0.1" layer="39"/>
+<wire x1="-0.9" y1="-0.4" x2="-0.9" y2="0.4" width="0.1" layer="39"/>
 </package>
 <package name="C0402-ARDUINO-ROUND" urn="urn:adsk.eagle:footprint:15882853/1" library_version="43" library_locally_modified="yes">
 <wire x1="-0.118" y1="0.224" x2="0.118" y2="0.224" width="0.1524" layer="51"/>
@@ -5314,6 +5323,10 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <rectangle x1="0.45" y1="-0.4" x2="0.8" y2="0.4" layer="51"/>
 <wire x1="-0.3" y1="0.55" x2="0.3" y2="0.55" width="0.127" layer="21"/>
 <wire x1="-0.3" y1="-0.55" x2="0.3" y2="-0.55" width="0.127" layer="21"/>
+<wire x1="-1.42" y1="0.55" x2="1.42" y2="0.55" width="0.1" layer="39"/>
+<wire x1="1.42" y1="0.55" x2="1.42" y2="-0.55" width="0.1" layer="39"/>
+<wire x1="1.42" y1="-0.55" x2="-1.42" y2="-0.55" width="0.1" layer="39"/>
+<wire x1="-1.42" y1="-0.55" x2="-1.42" y2="0.55" width="0.1" layer="39"/>
 </package>
 </packages>
 <packages3d>
